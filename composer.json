@@ -1,0 +1,31 @@
+{
+  "name": "lsupp/oauth2-vkontakte",
+  "description": "Vkontakte provider for league/oauth2-client",
+  "keywords": [
+    "oauth2",
+    "league",
+    "vkontakte",
+    "package",
+    "vk",
+    "symfony"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Sasha"
+    }
+  ],
+  "require": {
+    "php": "^7.3 || ^8.0",
+    "league/oauth2-client": "^2.0"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-4": {
+      "lsupp\\OAuth2\\Client\\Provider\\": "src"
+    }
+  },
+  "autoload-dev": {
+  }
+}

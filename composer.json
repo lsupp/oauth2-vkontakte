@@ -7,8 +7,11 @@
     "vkontakte",
     "package",
     "vk",
+	"authorization",
+    "authentication",
     "symfony"
   ],
+  "version": "1.0.1",
   "license": "MIT",
   "authors": [
     {
@@ -19,13 +22,9 @@
     "php": "^7.3 || ^8.0",
     "league/oauth2-client": "^2.0"
   },
-  "require-dev": {
-  },
   "autoload": {
     "psr-4": {
-      "lsupp\\OAuth2\\Client\\Provider\\": "src"
+      "Lsupp\\OAuth2\\Client\\Provider\\": "src"
     }
-  },
-  "autoload-dev": {
   }
 }

@@ -8,7 +8,7 @@ composer require lsupp/oauth2-vkontakte
 ```
   vkontakte_main:
       type: generic
-      provider_class: lsupp\OAuth2\Client\Provider\Vkontakte
+      provider_class: Lsupp\OAuth2\Client\Provider\Vkontakte
       # add and set these environment variables in your .env files
       client_id: '%env(OAUTH_VKONTAKTE_CLIENT_ID)%'
       client_secret: '%env(OAUTH_VKONTAKTE_CLIENT_SECRET)%'
